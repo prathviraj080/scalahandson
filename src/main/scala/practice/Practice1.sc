@@ -7,7 +7,7 @@ do == in between the objects
 
  */
 
-//Test commit 
+//Test commit
 class Person(val fistName: String, val lastName: String) {
 
   def canEqual(other: Any): Boolean = other.isInstanceOf[Person]
